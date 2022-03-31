@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>ANKET</h1>
+        </div>
+        <form action="anket.html" class="form">
+            <div class="info">
+                <span>Ad Soyad</span>
+                <input type="text" id="name"/><br><br>
+                <span>E-Posta</span>
+                <input type="email" id="mail"/>
+            </div>
+            <div class="gender">
+                <span>Cinsiyetiniz</span><br>
+                <input type="radio" value="Kadın" name="gender">
+                <label for="women">Kadın</label>
+                <input type="radio" value="Erkek" name="gender">
+                <label for="men">Erkek</label>
+                <input type="radio" value="Belirtmek İstemiyorum" name="gender">
+                <label for="none">Belirtmek İstemiyorum</label>
+            </div>
+            <div class="hobby">
+                <span>Hobileriniz</span><br>
+                <input type="checkbox" value="Müzik"/>
+                <label>Müzik Dinlemek</label>
+                <input type="checkbox" value="Spor"/>
+                <label>Spor Yapmak</label>
+                <input type="checkbox" value="Kitap"/>
+                <label>Kitap Okumak</label>
+            </div>
+            <div class="idea">
+                <div>Düşünceleriniz</div>
+                <textarea placeholder="Lütfen bu bölüme düşüncelerinizi yazın..." id="idea" cols="100" rows="3"></textarea>
+            </div>
+            <div class="submit">
+                <span>Anketi bitirmek için gönder butonuna tıklayınız.</span><br>
+                <input id="sbm" type="submit" value="Gönder">
+            </div>
+        </form>
+        <div class="help">
+            <span id="form">Anketimizi gönderdikten sonra aşağıdaki linkten change.org' a destek vermenizi rica ederiz. </span><br>
+            <a href="http://www.change.org/p/t%C3%BCm-sma-hastalar%C4%B1n%C4%B1n-eri%C5%9Febilmesi-i%C3%A7in-sma-tedavileri-sgk-%C3%B6deme-kapsam%C4%B1na-al%C4%B1ns%C4%B1n-smay%C4%B1kar%C5%9F%C4%B1lasgk-saglikbakanligi-sgksosyalmedya?source_location=discover_feed">Tüm SMA Hastalarının Erişebilmesi için SMA Tedavileri SGK Ödeme Kapsamına Alınsın</a>
+        </div>
+    </div>
+</body>
+</html>

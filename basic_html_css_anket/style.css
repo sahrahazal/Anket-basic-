@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+}
+.main {
+    text-align: center;
+    color: blue;
+}
+.form {
+    text-align: center;
+}
+.help {
+    text-align: center;
+    margin: 20px;
+}
+#sbm {
+    margin: 10px;
+}
+.gender {
+    margin: 15px;
+}
+.idea {
+    margin: 15px;
+}
